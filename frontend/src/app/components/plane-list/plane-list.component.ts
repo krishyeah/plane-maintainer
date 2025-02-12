@@ -4,6 +4,7 @@ import { PlaneService } from '../../services/plane.service';
 @Component({
   selector: 'app-plane-list',
   standalone: true,
+  imports: [],
   templateUrl: './plane-list.component.html',
   styleUrls: ['./plane-list.component.css']
 })
